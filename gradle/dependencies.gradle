@@ -1,7 +1,7 @@
 def versions = [
     apolloVersion                : '1.0.0-alpha3',
     cacheVersion                 : '2.0.2',
-    okHttpVersion                : '3.11.0',
+    okHttpVersion                : '4.0.1',
     kotlinVersion                : '1.3.0',
     supportLibVersion            : '25.3.1',
     mockito                      : '1.9.5',
@@ -48,7 +48,7 @@ ext.dep = [
     mockito                 : "org.mockito:mockito-all:$versions.mockito",
     okhttpLoggingInterceptor: "com.squareup.okhttp3:logging-interceptor:$versions.okHttpVersion",
     okHttp                  : "com.squareup.okhttp3:okhttp:$versions.okHttpVersion",
-    okhttpTestSupport       : "com.squareup.okhttp3:okhttp-testing-support:$versions.okHttpVersion",
+    okhttpTestSupport       : "com.squareup.okhttp3:okhttp-testing-support:3.14.1",
     testRunner              : "com.android.support.test:runner:$versions.testRunner",
     espressoIdlingResource  : "com.android.support.test.espresso:espresso-idling-resource:$versions.espressoIdlingResourceVersion",
     bintrayGradlePlugin     : "com.jfrog.bintray.gradle:gradle-bintray-plugin:$versions.bintray",
